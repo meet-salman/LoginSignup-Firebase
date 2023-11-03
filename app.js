@@ -13,6 +13,7 @@ onAuthStateChanged(auth, (user) => {
         console.log(uid);
 
         hello.innerHTML = `Hello 👋`
+        signOut.innerHTML = 'Log Out?'
 
     } else {
         console.log('Logged Out');
